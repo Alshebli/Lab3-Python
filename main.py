@@ -20,6 +20,5 @@ def run():
   print(f"sum is {N}.")
   s=str(input("Enter a string: "))
   print_n(s,N)
-
 if __name__== '__main__':
   run ()
