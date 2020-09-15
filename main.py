@@ -12,7 +12,7 @@ def sum_n(n):
 
 def print_n(s, n):
   if n!=0:
-    print(s)
+    print(f"{s}")
     print_n(s,n-1)
 def run():
   n=int(input("Enter an int: "))
