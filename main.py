@@ -18,7 +18,6 @@ def print_n(s, n):
     print(s)
     print_n(s,n-1)
 
-
 def run():
   n=int(input("Enter an int:"))
   N=sum_n(n)
